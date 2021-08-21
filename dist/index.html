@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My First paragraph</h1>
+    <p>My first paragraph</p>
+    <canvas id="canvas" width="500px" height="500px"></canvas>
+ 
+    <script src="/day4/hello-world.js"></script>
+
+    <!-- <form id="form-shower">
+        <select id="myselect">
+            <option value="" selected="selected"></option>
+            <option value="rectangle-form">rectangle</option>
+            <option value="circle-form">circle</option>
+        </select>
+    </form> -->
+
+    <!-- <form id="rectangle-form" name="rectangle-form"> -->
+        <input type="text" placeholder="Type your Y..." id="myInputY"/>
+        <button type="button" onclick="getInputYValue();">Set Y</button>
+        <input type="text" placeholder="Type your X..." id="myInputX"/>
+        <button type="button" onclick="getInputXValue();">Set X</button>
+        <input type="text" placeholder="Type your Width..." id="myInputWidth"/>
+        <button type="button" onclick="getWidthValue();">Set Width</button>
+        <input type="text" placeholder="Type your Height..." id="myInputHeight"/>
+        <button type="button" onclick="getHeightValue();">Set Height</button>
+    
+        
+        <select name="color" id="color" onchange="selectColor()">
+            <option value="" selected="selected"></option>
+            <option value="black">black</option>
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+        </select>
+    
+        <select name="shape" id="shape" onchange="selectShapes()">
+            <option value="" selected="selected"></option>
+            <option value="circle">circle</option>
+            <option value="rectangle">rectangle</option>
+        </select>
+        <button type="button" onclick="getInputValue();">Draw</button>
+
+    <!-- </form> -->
+
+    <!-- <script>
+        $("#myselect").on("change", function() {
+
+            console.log("beginning to change shape forms");
+            // $("#" + $(this).val()).show().siblings().hide();
+
+            const x = $("#" + $(this).val());
+            console.log(x);
+
+        })
+    </script> -->
+
+
+</body>
+</html>
